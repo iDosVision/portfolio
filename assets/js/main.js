@@ -56,6 +56,16 @@ sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
 
+
+// WORK BUTTONS NAVIGATION
+
+function showCollage(collageType){
+    
+    document.getElementsByClassName('work_container').innerHTML = '';
+    var collageImages = [];
+    
+
+}
 // MORE WORK CONTENT TOGGLE
 document.addEventListener("DOMContentLoaded", function() {
     const clickForMoreButton = document.querySelector('.click-for-more');
